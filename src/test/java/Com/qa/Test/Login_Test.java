@@ -6,13 +6,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.pom.pack.Log_in;
+import com.pom.pack.homepage;
 
 import BaseClass.TestBase;
 import Utilities.ExtentReport;
 
 public class Login_Test extends TestBase {
     Log_in lo;
-	
+    homepage home;
 	public Login_Test() throws Exception {
 		super();   // Super keyword is used to call the Constructor of the base class
 	}
@@ -29,7 +30,7 @@ public class Login_Test extends TestBase {
 	}
 	@Test
 	public void test() throws Exception {
-		lo.log(prop.getProperty("username"), prop.getProperty("password"));// Fetching the values from property file
+	home=	lo.log(prop.getProperty("username"), prop.getProperty("password"));// Fetching the values from property file
 		//ExtentReport.extent(this.getClass().getName());
 		
 	}

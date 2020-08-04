@@ -19,11 +19,11 @@ public class Printer extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public Address products() throws Exception {
+	public  void products() throws Exception {
 		
 		Utility.looping();
 		
-		return new Address();
+		
 	}
 	
 }
