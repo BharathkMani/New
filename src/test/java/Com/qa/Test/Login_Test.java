@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.pom.pack.Log_in;
 
 import BaseClass.TestBase;
+import Utilities.ExtentReport;
 
 public class Login_Test extends TestBase {
     Log_in lo;
@@ -29,7 +30,7 @@ public class Login_Test extends TestBase {
 	@Test
 	public void test() throws Exception {
 		lo.log(prop.getProperty("username"), prop.getProperty("password"));// Fetching the values from property file
-		
+		//ExtentReport.extent(this.getClass().getName());
 		
 	}
 	@AfterMethod()

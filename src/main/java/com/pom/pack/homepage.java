@@ -22,10 +22,11 @@ public class homepage  extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void homeaction() throws Exception {
+	public Printer homeaction() throws Exception {
 		Actions action=new Actions(driver);
 		action.moveToElement(electorincs).build().perform();
 		printer.click();
+		return new Printer();
 		
 	}
 	

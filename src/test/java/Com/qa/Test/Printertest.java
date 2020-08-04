@@ -9,6 +9,7 @@ import com.pom.pack.Printer;
 import com.pom.pack.homepage;
 
 import BaseClass.TestBase;
+import Utilities.ExtentReport;
 
 public class Printertest extends TestBase {
 	Log_in lo;
@@ -30,6 +31,7 @@ public class Printertest extends TestBase {
 	@Test
 	public void data() throws Exception {
 		print.products();
+	//	ExtentReport.extent(this.getClass().getName());
 	}
 	@AfterMethod()
 	public void teardown() {

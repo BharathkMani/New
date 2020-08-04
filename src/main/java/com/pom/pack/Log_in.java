@@ -26,12 +26,13 @@ public class Log_in extends TestBase
 		PageFactory.initElements(driver, this); 
 	}
 	
-	public void log(String user,String pass) throws Exception
+	public homepage log(String user,String pass) throws Exception
 	{
 		log.click();
 		email.sendKeys(user);
 		password.sendKeys(pass);
 		submit.click();
+		return new homepage();
 		
 	}
 	

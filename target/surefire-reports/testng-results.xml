@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Com.qa.Test.Login_Test" duration-ms="99891" started-at="2020-08-04T04:59:10Z" finished-at="2020-08-04T05:00:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="99891" started-at="2020-08-04T04:59:10Z" finished-at="2020-08-04T05:00:50Z">
+      <class name="Com.qa.Test.Login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Com.qa.Test.Login_Test@167135c]" name="setup" is-config="true" duration-ms="76949" started-at="2020-08-04T10:29:10Z" finished-at="2020-08-04T10:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Com.qa.Test.Login_Test@167135c]" name="test" duration-ms="20320" started-at="2020-08-04T10:30:27Z" finished-at="2020-08-04T10:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Com.qa.Test.Login_Test@167135c]" name="Teardown" is-config="true" duration-ms="2596" started-at="2020-08-04T10:30:47Z" finished-at="2020-08-04T10:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Com.qa.Test.Login_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Com.qa.Test.Login_Test -->
+</testng-results>

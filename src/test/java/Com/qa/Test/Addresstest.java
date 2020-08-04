@@ -13,6 +13,7 @@ import com.pom.pack.homepage;
 
 
 import BaseClass.TestBase;
+import Utilities.ExtentReport;
 import Utilities.Utility;
 
 public class Addresstest extends TestBase{
@@ -45,6 +46,7 @@ public class Addresstest extends TestBase{
 	@Test(dataProvider="getData")
 	public void addtest(String comname,String finame,String lasname,String addr1,String addr2,String cit,String pincod,String cont1,String mail,String pnum) throws Exception {
 		addres.address(comname, finame, lasname, addr1, addr2, cit, pincod,cont1, mail, pnum);
+		//ExtentReport.extent(this.getClass().getName());
 	}
 	@AfterMethod
 	public void teardown() throws Exception {
