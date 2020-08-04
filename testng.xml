@@ -8,11 +8,6 @@
 		</listener>
 	</listeners>
 	<test  name="Test" >
-		<classes>
-			<class name="Com.qa.Test.Login_Test" />
-			<class name="Com.qa.Test.Hometest" />
-			<class name="Com.qa.Test.Printertest" />
-			<class name="Com.qa.Test.Addresstest" />
-		</classes>
+		
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
